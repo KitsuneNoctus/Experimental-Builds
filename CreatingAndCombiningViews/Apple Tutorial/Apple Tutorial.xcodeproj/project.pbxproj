@@ -14,6 +14,8 @@
 		BA727B672B71B646000EA315 /* Apple_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA727B662B71B646000EA315 /* Apple_TutorialTests.swift */; };
 		BA727B712B71B646000EA315 /* Apple_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA727B702B71B646000EA315 /* Apple_TutorialUITests.swift */; };
 		BA727B732B71B646000EA315 /* Apple_TutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA727B722B71B646000EA315 /* Apple_TutorialUITestsLaunchTests.swift */; };
+		BA727B802B71B9A4000EA315 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA727B7F2B71B9A4000EA315 /* CircleImage.swift */; };
+		BA727B822B71BA59000EA315 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA727B812B71BA59000EA315 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		BA727B6C2B71B646000EA315 /* Apple TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple TutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA727B702B71B646000EA315 /* Apple_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_TutorialUITests.swift; sourceTree = "<group>"; };
 		BA727B722B71B646000EA315 /* Apple_TutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_TutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA727B7F2B71B9A4000EA315 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		BA727B812B71BA59000EA315 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				BA727B552B71B645000EA315 /* Apple_TutorialApp.swift */,
 				BA727B572B71B645000EA315 /* ContentView.swift */,
+				BA727B7F2B71B9A4000EA315 /* CircleImage.swift */,
+				BA727B812B71BA59000EA315 /* MapView.swift */,
 				BA727B592B71B646000EA315 /* Assets.xcassets */,
 				BA727B5B2B71B646000EA315 /* Preview Content */,
 			);
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA727B582B71B645000EA315 /* ContentView.swift in Sources */,
+				BA727B822B71BA59000EA315 /* MapView.swift in Sources */,
 				BA727B562B71B645000EA315 /* Apple_TutorialApp.swift in Sources */,
+				BA727B802B71B9A4000EA315 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
